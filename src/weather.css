@@ -1,0 +1,91 @@
+body {
+    background-color: #dfb9f6; 
+    margin: 0;
+    padding: 0;
+  }
+
+
+.weather {
+  place-self: center;
+  padding: 40px;
+  border-radius: 10px;
+  background-image: linear-gradient(45deg, #2f4680, #500ae4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  width: 300px;
+}
+p {
+    margin: 0;
+    padding: 0;
+  }
+  
+.search-bar{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.search-bar input{
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 25px;
+    color: #622626;
+    background: #ebfffc;
+    font-size: 18px;
+}
+
+.search-bar button{
+    width: 50px;
+    padding: 15px;
+    border-radius: 50px;
+    background: #ebfffc;
+    cursor: pointer;
+}
+
+.weather-icon{
+    width: 150px;
+    margin: 30px 0;
+}
+
+.temperature{
+    color:#fff;
+    font-size: 80px;
+    line-height: 1;
+
+}
+
+.location{
+    color: #fff;
+    font-size: 40px;
+
+
+}
+.weather-data{
+    width: 100%;
+    /* margin-left: 40px; */
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 41px;
+
+}
+.weather-data col{
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    font-size: 22px;
+}
+
+.weather-data col img{
+    width: 26px;
+    margin-top: 10px;
+}
+.temperature, .location {
+    word-wrap: break-word; /* This will break long words to fit within the container */
+    word-break: break-word; /* Alternatively, you can use word-break: break-all; */
+    margin: 10px 0;
+  }
